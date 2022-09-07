@@ -10,4 +10,14 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+### Follow these steps to setup on your local machine:
+1. Clone this repository in your machine. <br />
+``` git clone https://github.com/ObelusFamily/Anythink-Market-hpxcd```<br /><br />
+2. Install docker from the official site and check if it is successfully installed by running: <br />
+```docker -v```<br />
+```docker-compose -v```<br /><br />
+3. Now go to project's root directory and run:<br /> ```docker-compose up```<br /><br />
+4. Now paste the link in the browser:<br /> ```http://localhost:3000/api/ping```<br /><br />
+5. Create a new user here:<br /> ```http://localhost:3001/register```
+
+### Congratulations, You have successfully setup on your local machine
